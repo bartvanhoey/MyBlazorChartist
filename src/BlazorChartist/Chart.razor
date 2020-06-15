@@ -1,0 +1,17 @@
+@inject IJSRuntime JSRuntime
+
+<div @ref="elem" class="ct-chart">
+   
+</div>
+
+@code {
+    ElementReference elem;
+
+     protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("BlazorChartist.createChart", elem);
+        }
+    }
+}

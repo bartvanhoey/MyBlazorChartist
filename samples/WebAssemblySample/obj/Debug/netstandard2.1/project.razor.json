@@ -9,14 +9,14 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-        "Name": "WebAssemblySample.Shared.NavMenu",
+        "Name": "WebAssemblySample.App",
         "AssemblyName": "WebAssemblySample",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu",
+            "TagName": "App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -28,19 +28,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.Shared.NavMenu"
+          "Common.TypeName": "WebAssemblySample.App"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebAssemblySample.Shared.NavMenu",
+        "Name": "WebAssemblySample.App",
         "AssemblyName": "WebAssemblySample",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebAssemblySample.Shared.NavMenu",
+            "TagName": "WebAssemblySample.App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -52,7 +52,56 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.Shared.NavMenu",
+          "Common.TypeName": "WebAssemblySample.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebAssemblySample.Pages.Index",
+        "AssemblyName": "WebAssemblySample",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblySample.Pages.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebAssemblySample.Pages.Index",
+        "AssemblyName": "WebAssemblySample",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebAssemblySample.Pages.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebAssemblySample.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -190,14 +239,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebAssemblySample.App",
+        "Name": "WebAssemblySample.Shared.NavMenu",
         "AssemblyName": "WebAssemblySample",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App",
+            "TagName": "NavMenu",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -209,19 +258,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.App"
+          "Common.TypeName": "WebAssemblySample.Shared.NavMenu"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebAssemblySample.App",
+        "Name": "WebAssemblySample.Shared.NavMenu",
         "AssemblyName": "WebAssemblySample",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebAssemblySample.App",
+            "TagName": "WebAssemblySample.Shared.NavMenu",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -233,56 +282,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebAssemblySample.Pages.Index",
-        "AssemblyName": "WebAssemblySample",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebAssemblySample.Pages.Index",
-        "AssemblyName": "WebAssemblySample",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebAssemblySample.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblySample.Pages.Index",
+          "Common.TypeName": "WebAssemblySample.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3258,14 +3258,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorChartist.Component1",
+        "Name": "__GeneratedComponent.AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c",
         "AssemblyName": "BlazorChartist",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Component1",
+            "TagName": "AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -3277,19 +3277,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorChartist.Component1"
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorChartist.Component1",
+        "Name": "__GeneratedComponent.AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c",
         "AssemblyName": "BlazorChartist",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorChartist.Component1",
+            "TagName": "__GeneratedComponent.AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -3301,7 +3301,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorChartist.Component1",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_eabad181634dbb3db6ec501ddc2479f74217675c",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

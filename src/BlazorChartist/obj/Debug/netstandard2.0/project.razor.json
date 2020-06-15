@@ -9,14 +9,14 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-        "Name": "BlazorChartist.Component1",
+        "Name": "BlazorChartist.Chart",
         "AssemblyName": "BlazorChartist",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Component1",
+            "TagName": "Chart",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -28,19 +28,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorChartist.Component1"
+          "Common.TypeName": "BlazorChartist.Chart"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorChartist.Component1",
+        "Name": "BlazorChartist.Chart",
         "AssemblyName": "BlazorChartist",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorChartist.Component1",
+            "TagName": "BlazorChartist.Chart",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -52,7 +52,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorChartist.Component1",
+          "Common.TypeName": "BlazorChartist.Chart",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16107,14 +16107,14 @@
   "RootNamespace": "BlazorChartist",
   "Documents": [
     {
+      "FilePath": "d:\\_Blazor\\MyBlazorChartist\\src\\BlazorChartist\\Chart.razor",
+      "TargetPath": "Chart.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\_Blazor\\MyBlazorChartist\\src\\BlazorChartist\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "d:\\_Blazor\\MyBlazorChartist\\src\\BlazorChartist\\Component1.razor",
-      "TargetPath": "Component1.razor",
-      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"
