@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3i2bV9UUNOp1Q+0wRmzaXNRiC+2Ru9T+sle1faEOc87O2Z0eOFFT9KDApCt6aK5yFG9CJhE5Hh8jASAEVO2f/A==",
+  "success": true,
+  "projectFilePath": "D:\\_Blazor\\MyBlazorChartist\\samples\\ServerSample\\ServerSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bartv\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
