@@ -1,3 +1,6 @@
+D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.deps.json
+D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.dll
+D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.pdb
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.csprojAssemblyReference.cache
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.AssemblyInfoInputs.cache
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.AssemblyInfo.cs
@@ -5,9 +8,6 @@ D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorCh
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.RazorComponent.input.cache
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\RazorDeclaration\Chart.razor.g.cs
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\RazorDeclaration\_Imports.razor.g.cs
-D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.deps.json
-D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.dll
-D:\_Blazor\MyBlazorChartist\src\BlazorChartist\bin\Debug\netstandard2.0\BlazorChartist.pdb
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\RazorDeclaration\BlazorChartist.dll
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.TagHelpers.input.cache
 D:\_Blazor\MyBlazorChartist\src\BlazorChartist\obj\Debug\netstandard2.0\BlazorChartist.TagHelpers.output.cache

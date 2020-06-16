@@ -4,4 +4,22 @@
 
 Welcome to your new app.
 
-<Chart />
+<input type="checkbox" @bind="showTrumpTweets">
+
+<Chart Type="ChartType.Bar" Labels="@labels" title="Graph of oil vs tweets" style="background-color: lightyellow;">
+  <Series Name="Oil price" Values="@oilPrices"  />
+  @if (showTrumpTweets) {
+     <Series Name="Trump tweets" Values="@trumpTweets"  />
+  }
+</Chart>
+
+<Chart Type="ChartType.Line"  Labels="@labels"  >
+  <Series Name="Oil price" Values="@oilPrices"  />
+</Chart>
+
+@code {
+  private bool showTrumpTweets;
+  private static string[] labels = new[] { "Jan", "Feb", "Mar", "Apr", "May" };
+  private static double[] oilPrices = new double[] { 51, 55, 68, 52, 51 };
+  private static double[] trumpTweets = new double[] { 35, 19, 26, 68, 21 };
+}
